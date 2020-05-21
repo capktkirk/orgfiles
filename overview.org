@@ -1,3 +1,6 @@
+#+TITLE: Summer Projection
+#+OPTIONS: author: Kyle Kirk
+
 This documentation is for the Go Summer Learning Project.
 
 My intent is to document and learn go over the course of a summer to the point
@@ -10,11 +13,46 @@ IDE "Code Teaching" program modeled after my summer of code learning.
    - [X] TODO Install Spacemacs
    - [ ] TODO Customize Spacemacs
    - [X] TODO Begin note taking and org-mode exploration
-** Learn  
-* Code Language Learning Schedule
-** Week 1
-*** TODO pick language
+** Create list of tools and resources 
+   - Jack of Some - https://www.youtube.com/watch?v=S4f-GUxu3CY
+   - Thoughtbot - pure Emacs - https://www.youtube.com/watch?v=SzA2YODtgK4&t=121s
+* Code Language todo list. 
+*** DONE pick language
+    CLOSED: [2020-05-21 Thu 02:23]
     - [X] Golang
     - [ ] Julia
     - [ ] Clojure
 *** TODO create schedule 
+*** TODO Figure out Literate Programming in org-mode
+
+
+* Golang Learning Schedule
+** Week 1 [0%] [0/3]
+   DEADLINE: <2020-05-23 Sat 23:59>
+   - [ ] Golang Installation
+   - [ ] Golang working layer on Spacemacs (Possibly?)
+   - [ ] Fundamentals of Programming [0%] [0/2]
+     - [ ] Variables
+     - [ ] Functions
+** Week 2 [100%] [0/0]
+   DEADLINE: <2020-05-30 Sat 23:59>
+** Week 3 [100%] [0/0]
+   DEADLINE: <2020-06-06 Sat 23:59>
+** Week 4 [100%] [0/0]
+   DEADLINE: <2020-06-13 Sat 23:59>
+** Week 5 [100%] [0/0]
+   DEADLINE: <2020-06-20 Sat 23:59>
+** Week 6 [100%] [0/0]
+   DEADLINE: <2020-06-27 Sat 23:59>
+** Week 7 [100%] [0/0]
+   DEADLINE: <2020-07-04 Sat 23:59>
+** Week 8
+   DEADLINE: <2020-07-11 Sat 23:59>
+** Week 9 
+   DEADLINE: <2020-07-18 Sat 23:59>
+** Week 10
+   DEADLINE: <2020-07-25 Sat 23:59>
+** Week 11
+   DEADLINE: <2020-08-01 Sat 23:59>
+** Week 12
+   DEADLINE: <2020-08-08 Sat 23:59>
