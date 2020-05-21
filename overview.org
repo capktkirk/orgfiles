@@ -1,0 +1,20 @@
+This documentation is for the Go Summer Learning Project.
+
+My intent is to document and learn go over the course of a summer to the point
+where I can use Golang, Flutter and possibly a Rust backend to create an interactive
+IDE "Code Teaching" program modeled after my summer of code learning.
+
+
+* Learning Emacs Schedule
+** General To Do [66%]
+   - [X] TODO Install Spacemacs
+   - [ ] TODO Customize Spacemacs
+   - [X] TODO Begin note taking and org-mode exploration
+** Learn  
+* Code Language Learning Schedule
+** Week 1
+*** TODO pick language
+    - [X] Golang
+    - [ ] Julia
+    - [ ] Clojure
+*** TODO create schedule 
