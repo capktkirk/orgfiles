@@ -6,7 +6,8 @@ This documentation is for the Go Summer Learning Project.
 My intent is to document and learn go over the course of a summer to the point
 where I can use Golang, Flutter and possibly a Rust backend to create an interactive
 IDE "Code Teaching" program modeled after my summer of code learning.
-
+* Go Tutorials/Reference
+** [[https://learnxinyminutes.com/docs/go/][ Learn X in Y minutes tutorial Go]]
 
 * Learning Emacs Schedule
 ** General To Do [66%]
@@ -27,15 +28,25 @@ IDE "Code Teaching" program modeled after my summer of code learning.
 
 
 * Golang Learning Schedule
-** Week 1 [0%] [0/3]
+** Week 1 [25%] [1/4]
    DEADLINE: <2020-05-23 Sat 23:59>
-   - [ ] Golang Installation
+   - [X] Golang Installation
    - [ ] Golang working layer on Spacemacs (Possibly?)
-   - [ ] Fundamentals of Programming [0%] [0/2]
+   - [ ] Go 'Hello World' :
+   - [ ] Fundamentals of Programming [0%] [0/4]
      - [ ] Variables
-     - [ ] Functions
-** Week 2 [100%] [0/0]
+     - [ ] Compilation/Running
+     - [ ] Imports
+     - [ ] Logic (Loops, Ifs)
+** Week 2 [0%] [0/1]
    DEADLINE: <2020-05-30 Sat 23:59>
+*** TODO Golang Complexity
+    - State "TODO"       from              [2020-05-21 Thu 15:14]
+    - [ ] Data Structures
+    - [ ] Classes
+    - [ ] Control Flow
+    - [ ] I/O
+    - [ ] File Reading/Writing
 ** Week 3 [100%] [0/0]
    DEADLINE: <2020-06-06 Sat 23:59>
 ** Week 4 [100%] [0/0]
@@ -46,13 +57,13 @@ IDE "Code Teaching" program modeled after my summer of code learning.
    DEADLINE: <2020-06-27 Sat 23:59>
 ** Week 7 [100%] [0/0]
    DEADLINE: <2020-07-04 Sat 23:59>
-** Week 8
+** Week 8 [100%] [0/0]
    DEADLINE: <2020-07-11 Sat 23:59>
-** Week 9 
+** Week 9 [100%] [0/0]
    DEADLINE: <2020-07-18 Sat 23:59>
-** Week 10
+** Week 10 [100%] [0/0]
    DEADLINE: <2020-07-25 Sat 23:59>
-** Week 11
+** Week 11 [100%] [0/0]
    DEADLINE: <2020-08-01 Sat 23:59>
-** Week 12
+** Week 12 [100%] [0/0]
    DEADLINE: <2020-08-08 Sat 23:59>
