@@ -9,6 +9,9 @@ IDE "Code Teaching" program modeled after my summer of code learning.
 * Go Tutorials/Reference
 ** [[https://learnxinyminutes.com/docs/go/][ Learn X in Y minutes tutorial Go]]
 
+* Spacemacs Reference 
+** Docs : https://develop.spacemacs.org/layers/+emacs/org/README.html
+*** insert a link : SPC mi L
 * Learning Emacs Schedule
 ** General To Do [66%]
    - [X] TODO Install Spacemacs
@@ -32,7 +35,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
    DEADLINE: <2020-05-23 Sat 23:59>
    - [X] Golang Installation
    - [ ] Golang working layer on Spacemacs (Possibly?)
-   - [ ] Go 'Hello World' :
+   - [ ] Go 'Hello World' : [[file:go/hw.go][here]] 
    - [ ] Fundamentals of Programming [0%] [0/4]
      - [ ] Variables
      - [ ] Compilation/Running
