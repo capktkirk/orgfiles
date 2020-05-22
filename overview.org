@@ -1,5 +1,8 @@
-#+TITLE: Summer Projection
+#+TITLE: Summer Project
 #+OPTIONS: author: Kyle Kirk
+* Future Table of Contents :
+//This is where I'll put a table of contents once the document gets long enough to make sense.
+
 
 This documentation is for the Go Summer Learning Project.
 
