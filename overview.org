@@ -9,35 +9,41 @@ This documentation is for the Go Summer Learning Project.
 My intent is to document and learn go over the course of a summer to the point
 where I can use Golang, Flutter and possibly a Rust backend to create an interactive
 IDE "Code Teaching" program modeled after my summer of code learning.
+
 * Go Tutorials/Reference
 *** General Golang overview  : [[https://learnxinyminutes.com/docs/go/][Learn X in Y minutes tutorial Go]]
 *** General Golang resources : https://github.com/golang/go/wiki/Learn
 *** Golang by Example        : https://gobyexample.com/
 *** Golang Tour              : https://tour.golang.org
+
 * Spacemacs Reference 
 *** Docs : 
    - General Documentation    : https://develop.spacemacs.org/layers/+emacs/org/README.html
    - Jack of Some             : https://www.youtube.com/watch?v=S4f-GUxu3CY
    - Thoughtbot on pure Emacs : https://www.youtube.com/watch?v=SzA2YODtgK4&t=121s
    - My own discoveries       : [[file+:discovery.org::#spacemacs-discovery-1][Spacemacs Discovery]]
+   - Org-mode Documentation   : https://develop.spacemacs.org/layers/+emacs/org/README.html#org-with-evil-org-mode
 
 
-
-* Learning Emacs Schedule
+* Learning Spacemacs
 ** General To Do
 *** TODO Spacemacs Exploration [66%]   
-   - [X] TODO Install Spacemacs
-   - [ ] TODO Customize Spacemacs
-   - [X] TODO Begin note taking and org-mode exploration
+**** DONE Install Spacemacs
+     CLOSED: [2020-05-22 Fri 14:19]
+     - State "DONE"       from "TODO"       [2020-05-22 Fri 14:19]
+**** DOINGNOW Customize Spacemacs
+     - State "DOINGNOW"   from "TODO"       [2020-05-22 Fri 14:19]
+**** DONE Begin note taking and org-mode exploration
+     CLOSED: [2020-05-22 Fri 14:19]
+     - State "DONE"       from "TODO"       [2020-05-22 Fri 14:19]
 *** DONE create schedule 
     CLOSED: [2020-05-21 Thu 23:56]
-    - State "DONE"       from "FOLLOWUP"   [2020-05-21 Thu 23:56]
-    - State "FOLLOWUP"   from "DELEGATED"  [2020-05-21 Thu 23:55]
-    - State "DELEGATED"  from "TODO"       [2020-05-21 Thu 23:55]
 *** TODO Figure out Literate Programming in org-mode
-*** TODO check to see if git automation in Spacemacs possible?
+*** DONE check to see if git automation in Spacemacs possible? : (Answer : It is! magit allows for automated git actions.)
+    CLOSED: [2020-05-22 Fri 14:20]
 
 
+    - State "DONE"       from "TODO"       [2020-05-22 Fri 14:20]
 * Code Language todo list. 
 *** DONE pick language
     CLOSED: [2020-05-21 Thu 02:23]
@@ -53,7 +59,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
    - [X] Golang Installation
    - [X] Golang working layer on Spacemacs (Possibly?)
    - [X] Go 'Hello World' : [[file:go/hw.go][here]] 
-   - [-] Fundamentals of Programming [50%] [3/6]
+   - [-] Fundamentals of Programming [66%] [4/6]
      - [X] Variables
        - assign first (ex : `var x int` or `var x string')
        - need to further investigate strings tomorrow (05/23)
@@ -66,37 +72,57 @@ IDE "Code Teaching" program modeled after my summer of code learning.
        - [X] [[file:discovery.org::#go-discovery-3][Golang Discovery 3]] (testing)
      - [ ] Logic (Loops, Ifs)
      - [X] Go 'Acronym Creator' from [[https://exercism.io][Exercism]] website : [[file:go/acronym.go][here]] test cases are in go directory.
-     - [ ] Strings (how are they treated?)
+     - [X] Strings (how are they treated?)
      - [ ] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
 ** Week 2  [33%] [3/9]
-      DEADLINE: <2020-05-30 Sat 23:59>
+   DEADLINE: <2020-05-30 Sat 23:59>
 *** TODO Golang Complexity
-       - State "TODO"       from              [2020-05-21 Thu 15:14]
-       - [ ] Data Structures
-       - [ ] Classes
-       - [ ] Control Flow
-       - [ ] I/O
-       - [ ] File Reading/Writing
+    - State "TODO"       from              [2020-05-21 Thu 15:14]
+    - [ ] Data Structures
+    - [ ] Classes
+    - [ ] Control Flow
+    - [ ] I/O
+    - [ ] File Reading/Writing
 *** TODO Write a basic file reading/writing program
-** Week 3 [33%] [3/9]
+** Week 3  [33%] [3/9]
    DEADLINE: <2020-06-06 Sat 23:59>
 *** TODO Continue working on programs, find multiple projects in previously worked languages and make in Go.
     - State "TODO"       from              [2020-05-21 Thu 21:11]
-** Week 4  [100%] [0/0]
+** Week 4  [0%] [0/2]
    DEADLINE: <2020-06-13 Sat 23:59>
-** Week 5  [100%] [0/0]
+   - [ ] GUI creation via Go or Flutter
+   - [ ] File Browser?
+** Week 5  [0%] [0/2]
    DEADLINE: <2020-06-20 Sat 23:59>
-** Week 6  [100%] [0/0]
+*** TODO Currently unknown : Revisit on week 3.
+*** TODO Integrate Literate Programming for Golang, possibly. Research if possible.
+    - State "TODO"       from              [2020-05-22 Fri 14:17]
+** Week 6  [0%] [0/1]
    DEADLINE: <2020-06-27 Sat 23:59>
-** Week 7  [100%] [0/0]
+*** TODO Currently unknown : Revisit on week 3.
+    - State "TODO"       from              [2020-05-22 Fri 14:17]
+** Week 7  [0%] [0/1]
    DEADLINE: <2020-07-04 Sat 23:59>
-** Week 8  [100%] [0/0]
+*** TODO Currently unknown : Revisit on week 4.
+    - State "TODO"       from              [2020-05-22 Fri 14:17]
+** Week 8  [0%] [0/1]
    DEADLINE: <2020-07-11 Sat 23:59>
-** Week 9  [100%] [0/0]
+*** TODO Currently unknown : Revisit on week 4.
+    - State "TODO"       from              [2020-05-22 Fri 14:17]
+** Week 9  [0%] [0/1]
    DEADLINE: <2020-07-18 Sat 23:59>
-** Week 10 [100%] [0/0]
+*** TODO Currently unknown : Revisit on week 5.
+    - State "TODO"       from              [2020-05-22 Fri 14:17]
+** Week 10 [0%] [0/1]
    DEADLINE: <2020-07-25 Sat 23:59>
-** Week 11 [100%] [0/0]
+*** TODO Currently unknown : Revisit on week 5.
+    - State "TODO"       from              [2020-05-22 Fri 14:17]
+** Week 11 [0%] [0/1]
    DEADLINE: <2020-08-01 Sat 23:59>
-** Week 12 [100%] [0/0]
+*** TODO Currently unknown : Revisit on week 6
+    - State "TODO"       from              [2020-05-22 Fri 14:17]
+** Week 12 [0%] [0/1]
    DEADLINE: <2020-08-08 Sat 23:59>
+*** TODO Currently unknown : Revisit on week 8.
+    - State "TODO"       from              [2020-05-22 Fri 14:18]
+      
