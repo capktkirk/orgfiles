@@ -21,7 +21,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
    - General Documentation    : https://develop.spacemacs.org/layers/+emacs/org/README.html
    - Jack of Some             : https://www.youtube.com/watch?v=S4f-GUxu3CY
    - Thoughtbot on pure Emacs : https://www.youtube.com/watch?v=SzA2YODtgK4&t=121s
-   - My own discoveries       : [[file+:discovery.org::#spacemacs-discovery-1][Spacemacs Discovery]]
+   - My own discoveries       : [[file:discovery.org::#spacemacs-discovery-1][Spacemacs Discovery]]
    - Org-mode Documentation   : https://develop.spacemacs.org/layers/+emacs/org/README.html#org-with-evil-org-mode
 
 
