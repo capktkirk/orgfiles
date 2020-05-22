@@ -44,11 +44,11 @@ IDE "Code Teaching" program modeled after my summer of code learning.
        - need to further investigate strings tomorrow (05/23)
      - [X] Compilation/Running
        - [X] go run (runs script from file compiles at time(?) and if you want to make it an executable, go build)
-       - [X] [[file+emacs:discovery.org::go-discovery-1][Golang Discovery 1]] (tags)
+       - [X] [[file:discovery.org::go-discovery-1][Golang Discovery 1]] (tags)
        - [X] Multiple files for one? Includes similar to C++? (Answer : Yes, just include them on the line or in a package together.
-       - [X] [[file+emacs:discovery.org::#go-discovery-2][Golang Discovery 2]] (imports)
+       - [X] [[file:discovery.org::#go-discovery-2][Golang Discovery 2]] (imports)
        - [X] chmod? Permissions needed to run script afterwards? (Answer : None, it's done automatically.)
-       - [X] [[file+emacs:discovery.org::#go-discovery-3][Golang Discovery 3]] (testing)
+       - [X] [[file:discovery.org::#go-discovery-3][Golang Discovery 3]] (testing)
      - [ ] Logic (Loops, Ifs)
      - [ ] Strings (how are they treated?)
 ** Week 2  [33%] [3/9]
