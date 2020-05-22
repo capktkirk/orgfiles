@@ -9,12 +9,14 @@ IDE "Code Teaching" program modeled after my summer of code learning.
 * Go Tutorials/Reference
 *** General Golang overview  : [[https://learnxinyminutes.com/docs/go/][Learn X in Y minutes tutorial Go]]
 *** General Golang resources : https://github.com/golang/go/wiki/Learn
+*** Golang by Example        : https://gobyexample.com/
+*** Golang Tour              : https://tour.golang.org
 * Spacemacs Reference 
 *** Docs : 
    - General Documentation    : https://develop.spacemacs.org/layers/+emacs/org/README.html
    - Jack of Some             : https://www.youtube.com/watch?v=S4f-GUxu3CY
-   - Thoughtbot on pure Emacs :  https://www.youtube.com/watch?v=SzA2YODtgK4&t=121s
-   - My own discoveries       : [[file+emacs:discovery.org::#spacemacs-discovery-1][Spacemacs Discovery]] 
+   - Thoughtbot on pure Emacs : https://www.youtube.com/watch?v=SzA2YODtgK4&t=121s
+   - My own discoveries       : [[file+:discovery.org::#spacemacs-discovery-1][Spacemacs Discovery]]
 
 
 
@@ -31,7 +33,8 @@ IDE "Code Teaching" program modeled after my summer of code learning.
     - State "DELEGATED"  from "TODO"       [2020-05-21 Thu 23:55]
 *** TODO Figure out Literate Programming in org-mode
 *** TODO check to see if git automation in Spacemacs possible?
-** Create list of tools and resources 
+
+
 * Code Language todo list. 
 *** DONE pick language
     CLOSED: [2020-05-21 Thu 02:23]
@@ -41,12 +44,13 @@ IDE "Code Teaching" program modeled after my summer of code learning.
 
 
 * Golang Learning Schedule
+
 ** Week 1  [75%] [3/4]
    DEADLINE: <2020-05-23 Sat 23:59>
    - [X] Golang Installation
    - [X] Golang working layer on Spacemacs (Possibly?)
    - [X] Go 'Hello World' : [[file:go/hw.go][here]] 
-   - [-] Fundamentals of Programming [25%] [1/4]
+   - [-] Fundamentals of Programming [20%] [1/5]
      - [ ] Variables
        - assign first (ex : `var x int` or `var x string')
        - need to further investigate strings tomorrow (05/23)
@@ -59,6 +63,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
        - [X] [[file:discovery.org::#go-discovery-3][Golang Discovery 3]] (testing)
      - [ ] Logic (Loops, Ifs)
      - [ ] Strings (how are they treated?)
+     - [ ] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
 ** Week 2  [33%] [3/9]
       DEADLINE: <2020-05-30 Sat 23:59>
 *** TODO Golang Complexity
