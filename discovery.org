@@ -1,0 +1,29 @@
+# Things Discovered about Go :
+
+* go-discovery-1
+# Tags :
+Build tags can be put in the file at the top in a line comment `// + build` and you can essentially execute all the build tags by running ```go build -tags="tag1, tag2"```
+ appending *_test at the end of a file allows you to run ```go test``` and it will run that file with the files associated with it.
+* go-discovery-2 
+# Imports : 
+#+NAME: IMPORT_EXAMPLE
+#+BEGIN_SRC<go>
+   import "fmt"
+   //or
+   import (
+     "fmt"
+     "io/ioutil"
+     "os"
+   )
+#+END_SRC
+* go-discovery-3
+# Tests : 
+You can actually create test files by appending _test to the end of the file name, for example
+`hello_world.go` can have a test file 'hello_world_test.go` and you can run the test file with `go test` and it is recognized.
+
+# Things Discovered about Spacemacs : 
+
+* spacemacs-discovery-1
+1. insert a link : `SPC m i L`
+* spacemacs-discovery-2
+2. increase/decrease a number in "narrow/number" mode. `SPC n +`

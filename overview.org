@@ -7,14 +7,14 @@ My intent is to document and learn go over the course of a summer to the point
 where I can use Golang, Flutter and possibly a Rust backend to create an interactive
 IDE "Code Teaching" program modeled after my summer of code learning.
 * Go Tutorials/Reference
-** [[https://learnxinyminutes.com/docs/go/][ Learn X in Y minutes tutorial Go]]
+** General Golang overview  : [[https://learnxinyminutes.com/docs/go/][Learn X in Y minutes tutorial Go]]
 ** General Golang resources : https://github.com/golang/go/wiki/Learn
 * Spacemacs Reference 
 ** Docs : 
-   - https://develop.spacemacs.org/layers/+emacs/org/README.html
-     - insert a link : SPC m i L
-   - Jack of Some - https://www.youtube.com/watch?v=S4f-GUxu3CY
-   - Thoughtbot - pure Emacs - https://www.youtube.com/watch?v=SzA2YODtgK4&t=121s
+   - General Documentation    : https://develop.spacemacs.org/layers/+emacs/org/README.html
+   - Jack of Some             : https://www.youtube.com/watch?v=S4f-GUxu3CY
+   - Thoughtbot on pure Emacs :  https://www.youtube.com/watch?v=SzA2YODtgK4&t=121s
+   - My own discoveries       : [[file+emacs:discovery.org::#spacemacs-discovery-1][Spacemacs Discovery]] 
 * Learning Emacs Schedule
 ** General To Do
 *** TODO Spacemacs Exploration [66%]   
@@ -33,7 +33,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
 
 
 * Golang Learning Schedule
-** Week 1 [33%] [3/9]
+** Week 1  [75%] [3/4]
    DEADLINE: <2020-05-23 Sat 23:59>
    - [X] Golang Installation
    - [X] Golang working layer on Spacemacs (Possibly?)
@@ -41,53 +41,41 @@ IDE "Code Teaching" program modeled after my summer of code learning.
    - [-] Fundamentals of Programming [25%] [1/4]
      - [ ] Variables
        - assign first (ex : `var x int` or `var x string')
+       - need to further investigate strings tomorrow (05/23)
      - [X] Compilation/Running
        - [X] go run (runs script from file compiles at time(?) and if you want to make it an executable, go build)
-       - [X] *Discovery* : Build tags can be put in the file at the top in a line comment // +build and you can essentially execute all the
-                           build tags by running `go build -tags="tag1, tag2"` sounds useful for having multiple builds with options?
+       - [X] [[file+emacs:discovery.org::go-discovery-1][Golang Discovery 1]] (tags)
        - [X] Multiple files for one? Includes similar to C++? (Answer : Yes, just include them on the line or in a package together.
-       - [X] *Discovery* : appending _test to the end of the file creates automatic testing structure that you can run with go test.
+       - [X] [[file+emacs:discovery.org::#go-discovery-2][Golang Discovery 2]] (imports)
        - [X] chmod? Permissions needed to run script afterwards? (Answer : None, it's done automatically.)
-     - [ ] Imports : Similar to C/C++/Python : but, you can include multiple lines. Ex :
-#+NAME: IMPORT_EXAMPLE
-#+BEGIN_SRC<go>
-import "fmt"
-#+END_SRC
-OR
-#+BEGIN_SRC<go>
-import (
-"fmt"
-"io/ioutil"
-"os"
-)
-#+END_SRC
-You can import multiple things at once, in a single import line.
+       - [X] [[file+emacs:discovery.org::#go-discovery-3][Golang Discovery 3]] (testing)
      - [ ] Logic (Loops, Ifs)
-   ** Week 2 [33%] [3/9]
+     - [ ] Strings (how are they treated?)
+** Week 2  [33%] [3/9]
       DEADLINE: <2020-05-30 Sat 23:59>
-   *** TODO Golang Complexity
+*** TODO Golang Complexity
        - State "TODO"       from              [2020-05-21 Thu 15:14]
        - [ ] Data Structures
        - [ ] Classes
        - [ ] Control Flow
        - [ ] I/O
        - [ ] File Reading/Writing
-   *** TODO Write a basic file reading/writing program
-   ** Week 3 [33%] [3/9]
+*** TODO Write a basic file reading/writing program
+** Week 3 [33%] [3/9]
    DEADLINE: <2020-06-06 Sat 23:59>
 *** TODO Continue working on programs, find multiple projects in previously worked languages and make in Go.
     - State "TODO"       from              [2020-05-21 Thu 21:11]
-** Week 4 [100%] [0/0]
+** Week 4  [100%] [0/0]
    DEADLINE: <2020-06-13 Sat 23:59>
-** Week 5 [100%] [0/0]
+** Week 5  [100%] [0/0]
    DEADLINE: <2020-06-20 Sat 23:59>
-** Week 6 [100%] [0/0]
+** Week 6  [100%] [0/0]
    DEADLINE: <2020-06-27 Sat 23:59>
-** Week 7 [100%] [0/0]
+** Week 7  [100%] [0/0]
    DEADLINE: <2020-07-04 Sat 23:59>
-** Week 8 [100%] [0/0]
+** Week 8  [100%] [0/0]
    DEADLINE: <2020-07-11 Sat 23:59>
-** Week 9 [100%] [0/0]
+** Week 9  [100%] [0/0]
    DEADLINE: <2020-07-18 Sat 23:59>
 ** Week 10 [100%] [0/0]
    DEADLINE: <2020-07-25 Sat 23:59>
