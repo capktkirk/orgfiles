@@ -50,8 +50,8 @@ IDE "Code Teaching" program modeled after my summer of code learning.
    - [X] Golang Installation
    - [X] Golang working layer on Spacemacs (Possibly?)
    - [X] Go 'Hello World' : [[file:go/hw.go][here]] 
-   - [-] Fundamentals of Programming [20%] [1/5]
-     - [ ] Variables
+   - [-] Fundamentals of Programming [50%] [3/6]
+     - [X] Variables
        - assign first (ex : `var x int` or `var x string')
        - need to further investigate strings tomorrow (05/23)
      - [X] Compilation/Running
@@ -62,6 +62,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
        - [X] chmod? Permissions needed to run script afterwards? (Answer : None, it's done automatically.)
        - [X] [[file:discovery.org::#go-discovery-3][Golang Discovery 3]] (testing)
      - [ ] Logic (Loops, Ifs)
+     - [X] Go 'Acronym Creator' from [[https://exercism.io][Exercism]] website : [[file:go/acronym.go][here]] test cases are in go directory.
      - [ ] Strings (how are they treated?)
      - [ ] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
 ** Week 2  [33%] [3/9]
