@@ -7,22 +7,30 @@ My intent is to document and learn go over the course of a summer to the point
 where I can use Golang, Flutter and possibly a Rust backend to create an interactive
 IDE "Code Teaching" program modeled after my summer of code learning.
 * Go Tutorials/Reference
-** General Golang overview  : [[https://learnxinyminutes.com/docs/go/][Learn X in Y minutes tutorial Go]]
-** General Golang resources : https://github.com/golang/go/wiki/Learn
+*** General Golang overview  : [[https://learnxinyminutes.com/docs/go/][Learn X in Y minutes tutorial Go]]
+*** General Golang resources : https://github.com/golang/go/wiki/Learn
 * Spacemacs Reference 
-** Docs : 
+*** Docs : 
    - General Documentation    : https://develop.spacemacs.org/layers/+emacs/org/README.html
    - Jack of Some             : https://www.youtube.com/watch?v=S4f-GUxu3CY
    - Thoughtbot on pure Emacs :  https://www.youtube.com/watch?v=SzA2YODtgK4&t=121s
    - My own discoveries       : [[file+emacs:discovery.org::#spacemacs-discovery-1][Spacemacs Discovery]] 
+
+
+
 * Learning Emacs Schedule
 ** General To Do
 *** TODO Spacemacs Exploration [66%]   
    - [X] TODO Install Spacemacs
    - [ ] TODO Customize Spacemacs
    - [X] TODO Begin note taking and org-mode exploration
-*** TODO create schedule 
+*** DONE create schedule 
+    CLOSED: [2020-05-21 Thu 23:56]
+    - State "DONE"       from "FOLLOWUP"   [2020-05-21 Thu 23:56]
+    - State "FOLLOWUP"   from "DELEGATED"  [2020-05-21 Thu 23:55]
+    - State "DELEGATED"  from "TODO"       [2020-05-21 Thu 23:55]
 *** TODO Figure out Literate Programming in org-mode
+*** TODO check to see if git automation in Spacemacs possible?
 ** Create list of tools and resources 
 * Code Language todo list. 
 *** DONE pick language
