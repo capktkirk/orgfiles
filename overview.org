@@ -16,6 +16,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
 *** Golang by Example        : https://gobyexample.com/
 *** Golang Tour              : https://tour.golang.org
 
+*** Go by Example            : https://golang.org/doc/effective_go.html
 * Spacemacs Reference 
 *** Docs : 
    - General Documentation    : https://develop.spacemacs.org/layers/+emacs/org/README.html
@@ -70,11 +71,11 @@ IDE "Code Teaching" program modeled after my summer of code learning.
        - [X] [[file:discovery.org::#go-discovery-2][Golang Discovery 2]] (imports)
        - [X] chmod? Permissions needed to run script afterwards? (Answer : None, it's done automatically.)
        - [X] [[file:discovery.org::#go-discovery-3][Golang Discovery 3]] (testing)
-     - [ ] Logic (Loops, Ifs)
+     - [ ] Logic (Loops, Ifs, Switch) : [[file:go/loop.go][here]]
      - [X] Go 'Acronym Creator' from [[https://exercism.io][Exercism]] website : [[file:go/acronym.go][here]] test cases are in go directory.
      - [X] Strings (how are they treated?)
      - [ ] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
-** Week 2  [33%] [3/9]
+** Week 2  [0%] [0/3]
    DEADLINE: <2020-05-30 Sat 23:59>
 *** TODO Golang Complexity
     - State "TODO"       from              [2020-05-21 Thu 15:14]
@@ -84,6 +85,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
     - [ ] I/O
     - [ ] File Reading/Writing
 *** TODO Write a basic file reading/writing program
+*** TODO Brekadown Regex in Golang
 ** Week 3  [33%] [3/9]
    DEADLINE: <2020-06-06 Sat 23:59>
 *** TODO Continue working on programs, find multiple projects in previously worked languages and make in Go.
