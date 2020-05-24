@@ -55,12 +55,12 @@ IDE "Code Teaching" program modeled after my summer of code learning.
 
 * Golang Learning Schedule
 
-** Week 1  [75%] [3/4]
+** Week 1  [100%] [4/4]
    DEADLINE: <2020-05-23 Sat 23:59>
    - [X] Golang Installation
    - [X] Golang working layer on Spacemacs (Possibly?)
    - [X] Go 'Hello World' : [[file:go/hw.go][here]] 
-   - [-] Fundamentals of Programming [66%] [4/6]
+   - [X] Fundamentals of Programming [100%] [6/6]
      - [X] Variables
        - assign first (ex : `var x int` or `var x string')
        - need to further investigate strings tomorrow (05/23)
@@ -71,19 +71,21 @@ IDE "Code Teaching" program modeled after my summer of code learning.
        - [X] [[file:discovery.org::#go-discovery-2][Golang Discovery 2]] (imports)
        - [X] chmod? Permissions needed to run script afterwards? (Answer : None, it's done automatically.)
        - [X] [[file:discovery.org::#go-discovery-3][Golang Discovery 3]] (testing)
-     - [ ] Logic (Loops, Ifs, Switch) : [[file:go/loop.go][here]]
+     - [X] Logic (Loops, Ifs, Switch) : [[file:go/loop.go][here]]
      - [X] Go 'Acronym Creator' from [[https://exercism.io][Exercism]] website : [[file:go/acronym.go][here]] test cases are in go directory.
      - [X] Strings (how are they treated?)
-     - [ ] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
+     - [X] (Putting this off to Week 2) Slices when dealing with arrays, atomic and different than in C++. Investigate further.
 ** Week 2  [0%] [0/3]
    DEADLINE: <2020-05-30 Sat 23:59>
 *** TODO Golang Complexity
     - State "TODO"       from              [2020-05-21 Thu 15:14]
+    - [X] Defer investigation : [[file:go/defer.go][here]]
     - [ ] Data Structures
     - [ ] Classes
     - [ ] Control Flow
     - [ ] I/O
     - [ ] File Reading/Writing
+    - [ ] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
 *** TODO Write a basic file reading/writing program
 *** TODO Brekadown Regex in Golang
 ** Week 3  [33%] [3/9]
