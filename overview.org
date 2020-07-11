@@ -25,7 +25,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
    - My own discoveries       : [[file:discovery.org::#spacemacs-discovery-1][Spacemacs Discovery]]
    - Org-mode Documentation   : https://develop.spacemacs.org/layers/+emacs/org/README.html#org-with-evil-org-mode
 
-
+     
 * Learning Spacemacs
 ** General To Do
 *** TODO Spacemacs Exploration [66%]   
@@ -80,12 +80,12 @@ IDE "Code Teaching" program modeled after my summer of code learning.
 *** TODO Golang Complexity
     - State "TODO"       from              [2020-05-21 Thu 15:14]
     - [X] Defer investigation : [[file:go/defer.go][here]]
-    - [ ] Data Structures
-    - [ ] Classes
-    - [ ] Control Flow
-    - [ ] I/O
-    - [ ] File Reading/Writing
-    - [ ] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
+    - [X] Data Structures : 
+    - [X] Classes : 
+    - [X] Control Flow : 
+    - [X] I/O : 
+    - [X] File Reading/Writing : 
+    - [X] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
 *** TODO Write a basic file reading/writing program
 *** TODO Brekadown Regex in Golang
 ** Week 3  [33%] [3/9]
