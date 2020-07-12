@@ -16,9 +16,12 @@ type Stack struct {
 	count int
 }
 
-func pushStack(n *Node, s *Stack) {
-	n.next = s.top
-	s.top = n
+func pushStack(e string, s *Stack) {
+	newNode := new(Node)
+	newNode.data = e
+	temp := s.top
+	newNode.next = temp
+	s.top = newNode
 	s.count++
 }
 
@@ -27,6 +30,13 @@ func popStack(s *Stack) *Node {
 	s.top = temp.next
 	s.count--
 	return temp
+}
+
+func printStack(s *Stack) {
+	fmt.Println(s.count)
+	for i := 0; i <= s.count; i++ {
+		fmt.Println(popStack(s).data)
+	}
 }
 
 func addNode(d string, n *Node) {
