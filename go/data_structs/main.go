@@ -27,11 +27,25 @@ func main() {
 	newStack := Stack{top: nodePtr}
 	stackPtr := &newStack
 	pushStack(nodePtr, stackPtr)
-	//newStack.top = &nodeOne
-	//pushStack(&nodeOne, newStack)
-	//nodeTwo := Node{data: "Stack2"}
-	//pushStack(&nodeTwo, newStack)
-
+	nodeOne = Node{next: nil, prev: nil, data: "Stack2"}
+	nodePtr = &nodeOne
+	pushStack(nodePtr, stackPtr)
+	stackString := popStack(stackPtr).data
+	nodeOne = Node{next: nil, prev: nil, data: "Stack3"}
+	nodePtr = &nodeOne
+	pushStack(nodePtr, stackPtr)
+	nodeOne = Node{next: nil, prev: nil, data: "Stack4"}
+	nodePtr = &nodeOne
+	pushStack(nodePtr, stackPtr)
+	nodeOne = Node{next: nil, prev: nil, data: "Stack5"}
+	nodePtr = &nodeOne
+	pushStack(nodePtr, stackPtr)
+	fmt.Println(stackString)
+	fmt.Println(newStack.count)
+	nodePop := popStack(&newStack).data
+	fmt.Println(nodePop)
+	nodePop = popStack(&newStack).data
+	fmt.Println(nodePop)
 	//4th Queues
 
 	//5th Hash Tables

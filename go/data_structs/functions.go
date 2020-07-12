@@ -12,20 +12,20 @@ type Node struct {
 }
 
 type Stack struct {
-	top *Node
+	top   *Node
+	count int
 }
 
 func pushStack(n *Node, s *Stack) {
+	n.next = s.top
 	s.top = n
-	//s.top = n
-	//temp := s.top
-	//n.next = temp
-	//s.top = n
+	s.count++
 }
 
 func popStack(s *Stack) *Node {
 	temp := s.top
 	s.top = temp.next
+	s.count--
 	return temp
 }
 
