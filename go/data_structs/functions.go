@@ -88,6 +88,15 @@ func printListBack(ll Node) {
 	}
 }
 
+func HashSlot(s string) int {
+	tot := 0
+	for i := 0; i < len(s); i++ {
+		tot = s[i] * tot
+	}
+	tot = tot % 2056
+	return tot
+}
+
 func arrayTester() {
 	var arr [4]string
 	arr[0] = "This"
