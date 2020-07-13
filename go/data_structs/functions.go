@@ -88,13 +88,21 @@ func printListBack(ll Node) {
 	}
 }
 
-func HashSlot(s string) int {
-	tot := 0
+type Hasht func(string, int) int
+
+func HashSlot(s string, x int) int {
+	tot := 1
 	for i := 0; i < len(s); i++ {
-		tot = s[i] * tot
+		tot = int(s[i]) * tot
 	}
-	tot = tot % 2056
+	tot = tot % x
 	return tot
+}
+
+type HashTable struct {
+	hash  map[int]string
+	idx   int
+	hSlot Hasht
 }
 
 func arrayTester() {
