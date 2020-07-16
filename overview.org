@@ -1,14 +1,11 @@
 #+TITLE: Summer Project
 #+OPTIONS: author: Kyle Kirk
 * Future Table of Contents :
-//This is where I'll put a table of contents once the document gets long enough to make sense.
-
 
 This documentation is for the Go Summer Learning Project.
 
 My intent is to document and learn go over the course of a summer to the point
-where I can use Golang, Flutter and possibly a Rust backend to create an interactive
-IDE "Code Teaching" program modeled after my summer of code learning.
+where I can use Golang, Flutter and possibly a Rust to help me create my senior project.
 
 * Go Tutorials/Reference
 *** General Golang overview  : [[https://learnxinyminutes.com/docs/go/][Learn X in Y minutes tutorial Go]]
@@ -54,7 +51,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
     - [ ] Julia
     - [ ] Clojure
 
-
+      
 * Golang Learning Schedule
 
 ** Phase 1 [100%] [4/4]
@@ -76,26 +73,23 @@ IDE "Code Teaching" program modeled after my summer of code learning.
      - [X] Go 'Acronym Creator' from [[https://exercism.io][Exercism]] website : [[file:go/acronym.go][here]] test cases are in go directory.
      - [X] Strings (how are they treated?)
      - [X] (Putting this off to Week 2) Slices when dealing with arrays, atomic and different than in C++. Investigate further.
-** Phase 2 [100%] [4/4]
+** Phase 2 [100%] [3/3]
     - [X] Defer investigation : [[file:go/defer.go][here]]
     - [X] Classes & Data Structures : [[file:go/data_structs/main.go][here]] and [[file:go/data_structs/functions.go][here]]
     - [X] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
-** Phase 3 [0%] [0/1]
-    - [-] Graphs : [[file:go/graphs/graphs.go][here]]
-      - [X] BFS : [[file:go/graphs/go_graph.go][here]]
-      - [ ] DFS : here
-** Phase 4 [0%] [0/2]
-   - [ ] Recursive Work :  [[file:go/recurse_palindromes/palindromes.go][here]]
-   - [ ] explodencode.com purchased, Go web app/Flutter website.
+** Phase 3 [66%] [2/3]
+    - [X] Graphs : [[file:go/graphs/graphs.go][here]]
+    - [X] BFS : [[file:go/graphs/go_graph.go][here]]
+    - [ ] DFS : here
+** Phase 4 [50%] [1/2]
+   - [X] Recursive Work :  [[file:go/recurse_palindromes/palindromes.go][here]]
+   - [-] explodencode.com purchased, Go web app/Flutter website.
      - [ ] Resume
      - [ ] Link to Github
 ** Phase 5 [0%] [0/2]
-*** TODO Currently unknown : Revisit on week 3.
 *** TODO Integrate Literate Programming for Golang, possibly. Research if possible.
-    - State "TODO"       from              [2020-05-22 Fri 14:17]
+*** TODO use hover for flutter and go integration for a desktop app.
 ** Phase 6 [0%] [0/1]
-   DEADLINE: <2020-08-01 Sat 23:59>
-*** TODO Currently unknown : Revisit on week 6
-    - State "TODO"       from              [2020-05-22 Fri 14:17]
    - [ ] GUI creation via Go or Flutter
    - [ ] File Browser?
+     
