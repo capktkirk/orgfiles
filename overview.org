@@ -28,11 +28,13 @@ IDE "Code Teaching" program modeled after my summer of code learning.
      
 * Learning Spacemacs
 ** General To Do
-*** TODO Spacemacs Exploration [66%]   
+*** TODO Spacemacs Exploration [100%]   
 **** DONE Install Spacemacs
      CLOSED: [2020-05-22 Fri 14:19]
      - State "DONE"       from "TODO"       [2020-05-22 Fri 14:19]
-**** DOINGNOW Customize Spacemacs
+**** DONE Customize Spacemacs
+     CLOSED: [2020-07-15 Wed 21:46]
+     - State "DONE"       from "DOINGNOW"   [2020-07-15 Wed 21:46]
      - State "DOINGNOW"   from "TODO"       [2020-05-22 Fri 14:19]
 **** DONE Begin note taking and org-mode exploration
      CLOSED: [2020-05-22 Fri 14:19]
@@ -55,8 +57,7 @@ IDE "Code Teaching" program modeled after my summer of code learning.
 
 * Golang Learning Schedule
 
-** Week 1  [100%] [4/4]
-   DEADLINE: <2020-05-23 Sat 23:59>
+** Phase 1 [100%] [4/4]
    - [X] Golang Installation
    - [X] Golang working layer on Spacemacs (Possibly?)
    - [X] Go 'Hello World' : [[file:go/hw.go][here]] 
@@ -75,58 +76,26 @@ IDE "Code Teaching" program modeled after my summer of code learning.
      - [X] Go 'Acronym Creator' from [[https://exercism.io][Exercism]] website : [[file:go/acronym.go][here]] test cases are in go directory.
      - [X] Strings (how are they treated?)
      - [X] (Putting this off to Week 2) Slices when dealing with arrays, atomic and different than in C++. Investigate further.
-** Week 2  [0%] [0/3]
-   DEADLINE: <2020-05-30 Sat 23:59>
-*** TODO Golang Complexity
-    - State "TODO"       from              [2020-05-21 Thu 15:14]
+** Phase 2 [100%] [4/4]
     - [X] Defer investigation : [[file:go/defer.go][here]]
-    - [X] Data Structures : 
-    - [X] Classes : 
-    - [X] Control Flow : 
-    - [X] I/O : 
-    - [X] File Reading/Writing : 
+    - [X] Classes & Data Structures : [[file:go/data_structs/main.go][here]] and [[file:go/data_structs/functions.go][here]]
     - [X] Slices when dealing with arrays, atomic and different than in C++. Investigate further.
-*** TODO Write a basic file reading/writing program
-*** TODO Brekadown Regex in Golang
-** Week 3  [33%] [3/9]
-   DEADLINE: <2020-06-06 Sat 23:59>
-*** TODO Continue working on programs, find multiple projects in previously worked languages and make in Go.
-    - State "TODO"       from              [2020-05-21 Thu 21:11]
-** Week 4  [0%] [0/2]
-   DEADLINE: <2020-06-13 Sat 23:59>
-   - [ ] GUI creation via Go or Flutter
-   - [ ] File Browser?
-** Week 5  [0%] [0/2]
-   DEADLINE: <2020-06-20 Sat 23:59>
+** Phase 3 [0%] [0/1]
+    - [-] Graphs : [[file:go/graphs/graphs.go][here]]
+      - [X] BFS : [[file:go/graphs/go_graph.go][here]]
+      - [ ] DFS : here
+** Phase 4 [0%] [0/2]
+   - [ ] Recursive Work :  [[file:go/recurse_palindromes/palindromes.go][here]]
+   - [ ] explodencode.com purchased, Go web app/Flutter website.
+     - [ ] Resume
+     - [ ] Link to Github
+** Phase 5 [0%] [0/2]
 *** TODO Currently unknown : Revisit on week 3.
 *** TODO Integrate Literate Programming for Golang, possibly. Research if possible.
     - State "TODO"       from              [2020-05-22 Fri 14:17]
-** Week 6  [0%] [0/1]
-   DEADLINE: <2020-06-27 Sat 23:59>
-*** TODO Currently unknown : Revisit on week 3.
-    - State "TODO"       from              [2020-05-22 Fri 14:17]
-** Week 7  [0%] [0/1]
-   DEADLINE: <2020-07-04 Sat 23:59>
-*** TODO Currently unknown : Revisit on week 4.
-    - State "TODO"       from              [2020-05-22 Fri 14:17]
-** Week 8  [0%] [0/1]
-   DEADLINE: <2020-07-11 Sat 23:59>
-*** TODO Currently unknown : Revisit on week 4.
-    - State "TODO"       from              [2020-05-22 Fri 14:17]
-** Week 9  [0%] [0/1]
-   DEADLINE: <2020-07-18 Sat 23:59>
-*** TODO Currently unknown : Revisit on week 5.
-    - State "TODO"       from              [2020-05-22 Fri 14:17]
-** Week 10 [0%] [0/1]
-   DEADLINE: <2020-07-25 Sat 23:59>
-*** TODO Currently unknown : Revisit on week 5.
-    - State "TODO"       from              [2020-05-22 Fri 14:17]
-** Week 11 [0%] [0/1]
+** Phase 6 [0%] [0/1]
    DEADLINE: <2020-08-01 Sat 23:59>
 *** TODO Currently unknown : Revisit on week 6
     - State "TODO"       from              [2020-05-22 Fri 14:17]
-** Week 12 [0%] [0/1]
-   DEADLINE: <2020-08-08 Sat 23:59>
-*** TODO Currently unknown : Revisit on week 8.
-    - State "TODO"       from              [2020-05-22 Fri 14:18]
-      
+   - [ ] GUI creation via Go or Flutter
+   - [ ] File Browser?
