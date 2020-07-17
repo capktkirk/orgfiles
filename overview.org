@@ -86,8 +86,9 @@ where I can use Golang, Flutter and possibly a Rust to help me create my senior 
    - [-] explodencode.com purchased, Go web app/Flutter website.
      - [ ] Resume
      - [ ] Link to Github
-** Phase 5 [0%] [0/2]
+** Phase 5 [0%] [0/3]
 *** TODO Integrate Literate Programming for Golang, possibly. Research if possible.
+**** Doc for playing with literate programming : [[file:go/lit_programming.org][here]]
 *** TODO use hover for flutter and go integration for a desktop app.
 ** Phase 6 [0%] [0/1]
    - [ ] GUI creation via Go or Flutter

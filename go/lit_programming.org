@@ -1,0 +1,11 @@
+* Literate Programming :
+Literate programming is just essentially embedding code into an org file and being able to run it.
+You can automate file organization, and possibly many other things with this. Let's see
+how much we can do and how much we can augment a single document with embedded code.
+
+#+BEGIN_SRC sh :results verbatim :exports both
+echo "Language LC_ALL = "$LC_ALL
+echo "kernel version = $(uname -r)"
+echo "Hostname = $(hostname)"
+echo "Username = $(whoami)"
+#+END_SRC
