@@ -44,6 +44,8 @@ where I can use Golang, Flutter and possibly a Rust to help me create my senior 
 
 
     - State "DONE"       from "TODO"       [2020-05-22 Fri 14:20]
+*** TODO LaTeX integration for Spacemacs.
+
 * Code Language todo list. 
 *** DONE pick language
     CLOSED: [2020-05-21 Thu 02:23]
@@ -83,7 +85,8 @@ where I can use Golang, Flutter and possibly a Rust to help me create my senior 
     - [ ] DFS : here
 ** Phase 4 [50%] [1/2]
    - [X] Recursive Work :  [[file:go/recurse_palindromes/palindromes.go][here]]
-   - [-] explodencode.com purchased, Go web app/Flutter website.
+   - [-] explodencode.com purchased, Go web app/Flutter website. 
+     (Note : Haven't started on this, got side tracked, but will work on this during the semester.)
      - [ ] Resume
      - [ ] Link to Github
 ** Phase 5 [0%] [0/3]
